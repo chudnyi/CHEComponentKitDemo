@@ -1,0 +1,13 @@
+# Generated with: https://github.com/facebook/remodel
+DMStory includes(RMDescription, RMBuilder) {
+    NSString *id
+    NSString *streamId
+    NSDate *timestamp
+    NSString *title
+    NSString *content
+    NSString *author
+    NSURL *url
+    NSDate *published
+    NSDate *updated
+    NSUInteger likes;
+}
